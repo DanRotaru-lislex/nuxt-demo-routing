@@ -7,13 +7,8 @@ export default defineNuxtConfig({
     "~/assets/styles/main.scss"
   ],
   app: {
-    baseURL: '/nuxt-github-pages/',
+    baseURL: '/nuxt-demo-routing/',
     buildAssetsDir: 'assets'
-  },
-  router: {
-    options: {
-      hashMode: true
-    }
   },
   devtools: { enabled: false }
 })
