@@ -10,5 +10,10 @@ export default defineNuxtConfig({
     baseURL: '/nuxt-github-pages/',
     buildAssetsDir: 'assets'
   },
+  router: {
+    options: {
+      hashMode: true
+    }
+  },
   devtools: { enabled: false }
 })
