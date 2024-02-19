@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   css: [
     "~/assets/styles/main.scss"
   ],
-  ssr: false,
-  devtools: { enabled: true }
+  app: {
+    baseURL: '/nuxt-github-pages/',
+    buildAssetsDir: 'assets'
+  },
+  devtools: { enabled: false }
 })
